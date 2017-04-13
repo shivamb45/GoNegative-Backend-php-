@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testing Form for APIs</title>
+  </head>
+  <body>
+    <form action="formtry" method="post" enctype="multipart/form-data">
+      <h1>Upload data The Trial Forms</h1>
+      <label for="tytle">Title of Story</label>
+      <input type="text" name="tytle" placeholder="Fill the Title" /><br /><br />
+      <label for="naam">Author</label>
+      <input type="text" name="naam" placeholder="Author" /><br /><br />
+      <label for="story">The Story</label>
+      <textarea name="story" rows="5" cols="31"></textarea><br /><br />
+      <label for="photo">Image</label>
+      <input type="file" name="photo" id="photo"><br /><br />
+      <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <hr />
+    <form action="createUser" method="post">
+      <h1>Upload data The Create User API</h1>
+      <label for="naam">Author</label>
+      <input type="text" name="naam" placeholder="Author" /><br /><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <hr />
+    <form action="createPost" method="post" enctype="multipart/form-data">
+      <h1>Upload data The Create POST API</h1>
+      <label for="title">Title Of Post</label>
+      <input type="text" name="title" placeholder="Tititle of POst" /><br /><br />
+      <label for="userid">Author Ki ID</label>
+      <input type="text" name="userid" id="userid" /><br /><br />
+      <label for="story">Story</label>
+      <textarea rows="10" cols="40" name="story"></textarea><br /><br />
+      <label for="fimage">Featured Image</label>
+      <input type="file" name="fimage" id="fimage" />
+      <button type="submit" name="submit">Submit</button>
+    </form>
+
+  </body>
+</html>
