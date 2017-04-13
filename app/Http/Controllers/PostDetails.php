@@ -117,7 +117,7 @@ class PostDetails extends Controller
         $res['inputSupllied'] = $request->all();
         return response()->json($res,200,[],JSON_UNESCAPED_SLASHES);
       }
-      $actual_link = "http://$_SERVER[HTTP_HOST]"."/GoNegative"."/public";
+      $actual_link = "http://$_SERVER[HTTP_HOST]"."/public";
 
       //everything set now feed the db;
       $insertData=[];
